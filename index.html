@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/png" href="briefcase.png">
+    <title>To-do List App</title>
+</head>
+
+<body>
+    <section class="container">
+        <h1>To-Do List</h1>
+        <!-- Todo Input -->
+        <div class="todo-container">
+            <div class="toaster-container"></div>
+            <!-- <div class="toaster">
+                <p>Empty fucking field is not allowed</p>
+            </div> -->
+            <div class="todo-wrapper">
+                <input type="text" class="todoinput" id="todoinput" placeholder="Add Task">
+                <button id="addTask">Add</button>
+            </div>
+            <!-- Task counter -->
+            <div id="counter">
+                <p>You have <span id="counter-token">0</span> task(s) to complete</p>
+            </div>
+            <!-- Task Section -->
+            <div class="task-container">
+                <!-- <div class="card">
+                    <input id="task-text" type="text" readonly>
+                    <ul>
+                        <li><a href="#"><i class='bx bx-edit'></i></a></li>
+                        <li><a href="#"><i class='bx bx-trash'></i></a></li>
+                    
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </section>
+</body>
+<script src="main.js" type="text/javascript"></script>
+
+</html>
