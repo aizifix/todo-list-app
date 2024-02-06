@@ -7,10 +7,19 @@
     /* border: hsla(0, 100%, 50%, 0.466) 1px solid; */
 }
 
+:root {
+    --border-color: hsl(0, 0%, 10%);
+    --light-color: hsl(0, 0%, 94%);
+    --dark-color: hsl(0, 0%, 10%);
+    --success-color: hsl(139, 61%, 43%);
+    --warning-color: hsl(0, 78%, 55%);
+
+    --trans-100: all ease-in-out 0.3s;
+}
+
 
 
 .container {
-    height: 100vh;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -74,7 +83,7 @@ h1 {
 .task-container {
     margin-top: 1em;
     max-width: 100%;
-    height: 40em;
+    height: 60dvh;
     overflow: scroll;
     scrollbar-width: none;
 }
@@ -101,7 +110,6 @@ h1 {
     font-size: 1em;
     cursor: default;
 }
-
 
 #counter>p {
     color: hsl(0, 0%, 29%);
@@ -210,18 +218,5 @@ i {
     z-index: 100;
 }
 
-#light {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 1em;
-    padding: 0.5em;
-    border-radius: 8px;
-    font-size: 1.5em;
-    background-color: white;
-    color: black;
-    cursor: pointer;
-    z-index: 100;
-}
 
 
